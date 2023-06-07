@@ -2,7 +2,7 @@
 int main (void) {
   int suuti;
   scanf("%d", &suuti);
-  if (suuti)
-  printf("zeroizyounosuuti");
+  if (suuti == 256)
+  printf("256sannyoriookiidesune.");
   return 0;
 }
