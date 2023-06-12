@@ -28,6 +28,7 @@ int main (void) {
   printf("%c\n", cc);
 
   char ccc [] = "JSON";
+  printf("%c\n", ccc);
 
   return 0;
 }
