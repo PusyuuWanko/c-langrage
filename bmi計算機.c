@@ -16,5 +16,8 @@ int main() {
 
   printf("BMIは %.2lf です。\n", bmi);
 
+  printf("プログラムを終了します。何かキーを入力してください...\n");
+  getchar();
+
   return 0;
 }
