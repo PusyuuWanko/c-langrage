@@ -14,10 +14,12 @@ class Sample {
     Tarou.show();//出力
   }
 
-  public  static void main(String[] args) {
-    Student Hanako;
-    Hanako = new Student();
+  public  static void test(String[] args) {
+    Student Hanako = new Student();
+    Student Matuura = new Student();
     Hanako.num = 25;
     Hanako.show();
+    Matuura.num = 50;
+    System.out.println(Matuura.num);
   }
 }
