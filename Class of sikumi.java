@@ -18,8 +18,8 @@ class Sample {
     Student Hanako = new Student();
     Student Matuura = new Student();
     Hanako.num = 25;
-    Hanako.show();
     Matuura.num = 50;
+    System.out.println(Hanako.num);
     System.out.println(Matuura.num);
   }
 }
