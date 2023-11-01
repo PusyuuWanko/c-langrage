@@ -27,12 +27,7 @@ int main(void) {
 */
 #include<stdio.h>
 int main(void) {
-  int Tyear;
-  int Tmonth;
-  int Tday;
-  int Bday;
-  int Bmonth;
-  int Byear;
+  int Tyear, Tmonth, Tday, Bday, Bmonth, Byear;
   printf("input the this year: ");
   scanf("%d", &Tyear);
   printf("input the current month: ");
@@ -54,4 +49,5 @@ int main(void) {
   } else {
     printf("%dyour tosi: ", Tyear - Byear - 1);
   }
+  return 0;
 }
